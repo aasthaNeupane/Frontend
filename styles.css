@@ -1,0 +1,112 @@
+.collapse {
+    margin-left: 100px; /* Remove excess space on the left */
+}
+
+.nav-item {
+    padding-left: 10px; /* Reduce padding between nav items for a tighter layout */
+    padding-right: 5px; /* Add a bit of right padding for consistency */
+    margin-left:20px ;
+    margin-right:20px ;
+}
+
+.d-flex {
+    margin-right: 0; /* Remove the margin on the right to avoid extra space */
+}
+/* header */
+.header-content {
+    padding-left: 50px; /* Add space in front of header content */
+    
+}
+
+/* Image Section */
+.background-image {
+    position: relative;
+    background-image: url('bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    margin: 0; /* Ensure no extra space around the image */
+    padding: 0; /* Remove default padding */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    margin: 0; /* Remove default margin */
+}
+
+/* BUTTON */
+.btn {
+    background-color: #53ba66;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+/* PCQ Section */
+.pcq {
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0; /* Ensure no extra space in the section */
+    padding: 50px 0; /* Padding for better layout */
+}
+
+.pcq-content {
+    text-align: center;
+    padding: 20px; /* Add padding to ensure the content has some space */
+    margin-left:400px ;
+    margin-right:400px ;
+
+    color: #000000c1;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Add padding for better control within the section */
+}
+
+.feature {
+    text-align: center;
+    flex: 1 1 30%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 0; /* Remove margin to reduce space between features */
+}
+
+.feature i {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #a3d9ab
+}
+
+/* second section */
+.second {
+    background-color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.project {
+    text-align: center;
+}
