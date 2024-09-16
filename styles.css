@@ -1,20 +1,24 @@
 .collapse {
-    margin-left: 100px; /* Remove excess space on the left */
+    margin-left: 250px; 
 }
 
 .nav-item {
-    padding-left: 10px; /* Reduce padding between nav items for a tighter layout */
-    padding-right: 5px; /* Add a bit of right padding for consistency */
+    /* padding-left: 10px; 
+    padding-right: 5px; 
     margin-left:20px ;
-    margin-right:20px ;
+    margin-right:20px ; */
+    padding-left: 30px;  
+    display: flex;
 }
 
 .d-flex {
-    margin-right: 0; /* Remove the margin on the right to avoid extra space */
+    margin-right: 100px; 
 }
 /* header */
 .header-content {
-    padding-left: 50px; /* Add space in front of header content */
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: justify;
     
 }
 
@@ -93,20 +97,99 @@
     font-size: 36px;
     margin-bottom: 10px;
     color: #a3d9ab
+    
 }
 
-/* second section */
+/*second section */
 .second {
     background-color: aliceblue;
-    padding: 50px;
+    padding: 50px 20px;
     text-align: center;
+}
+.second h2 {
+    font-size: 2rem;
+    margin-bottom: 20px; 
 }
 
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.second p {
+    font-size: 1.1rem; 
+    margin-bottom: 40px;
+    line-height: 1.6;
 }
 .project {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+    
 }
+.project-grid {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+.bg-white {
+    background: #fff; 
+    border-radius: 8px;
+    padding: 20px; 
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+.branding-item1, .branding-item2 {
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensure image and text stay within the border */
+    max-width: 300px; /* Limit the width of items */
+    text-align: center;
+    background: #fff; /* Background color for contrast */
+    padding: 10px; /* Padding inside items */
+}
+
+.branding-item1 img, .branding-item2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.branding-item1 h3, .branding-item2 h3 {
+    font-size: 1.25rem; /* Adjust heading size */
+    margin: 15px 0 10px; /* Space around the heading */
+}
+
+.branding-item1 p, .branding-item2 p {
+    font-size: 1rem; /* Consistent font size */
+    line-height: 1.5;
+}
+
+.project2{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.miniproject {
+    text-align: center;
+    margin:5px;
+    height:100%;
+}
+
+.project2 img {
+    
+    object-fit:cover;
+    height:200px;
+
+}
+.Wanttowork{
+    text-align: center;
+    padding: 20px; /* Add padding to ensure the content has some space */
+    margin-left:400px ;
+    margin-right:400px ;
+}
+
+
+
