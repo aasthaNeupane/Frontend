@@ -1,7 +1,10 @@
 .collapse {
     margin-left: 250px; 
 }
-
+.logo{
+    padding-left: 30px;  
+    display: flex; 
+}
 .nav-item {
     /* padding-left: 10px; 
     padding-right: 5px; 
@@ -168,8 +171,10 @@
 
 .project2{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px;
+    align-items:center;
+
 }
 
 .miniproject {
@@ -191,5 +196,22 @@
     margin-right:400px ;
 }
 
-
-
+/* card */
+.custom-container2{
+    margin: 50px auto; 
+    background-color: rgb(227, 224, 224);
+    justify-content: center;
+    align-items: center;
+    width: 100vw; 
+    height: 150vh; 
+  }
+  .content-bot {
+    padding-top: 100px;
+    margin: 50px auto; 
+    width: calc(100% - 600px);
+    text-align: center;
+  }
+.content-bot h6{
+    font-size: 2rem;
+    color: rgb(127, 163, 255);
+}
